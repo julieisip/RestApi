@@ -2,8 +2,9 @@
 
 This is sample RestFul api webservice.
 
+
 This API allow to perform search base on first name, last name, email and phone number.
-It produces response in JSON.
+It produces response in JSON. It access a MYSQL DB and base on the search parameter on the api it queries the DB and parse the result.
 
 by adding more filter (query parameters) it refines the result of the search.
 
